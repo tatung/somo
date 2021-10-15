@@ -18,7 +18,7 @@ n_act:                  2
 actuator_definitions:
 
   # Actuator 0
-  - actuator_length: 1.5
+  - actuator_length: 0.98
     n_segments: 20
     planar_flag: 0
 
@@ -26,8 +26,10 @@ actuator_definitions:
     # The link height (z-dimension) times n_segments must equal the actuator length
     link_definition:
         shape_type: "stadium"
-        dimensions: [ 0.4,0.4,0.075 ]
-        mass: 0.3
+        # dimensions: [ 0.4,0.4,0.075 ]
+        dimensions: [ 0.11,0.12,0.049 ]
+        # mass: 0.00595
+        mass: 0.595
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
         material_color: [ 1.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
@@ -36,8 +38,8 @@ actuator_definitions:
         # Define joint type 1
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
-          limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 1500
+          limits: [ 0, 0, 100, 3 ]
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
@@ -45,12 +47,12 @@ actuator_definitions:
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
           limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 1500
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
   # Actuator 1
-  - actuator_length: 1.5
+  - actuator_length: 0.98
     n_segments: 20
     planar_flag: 0
 
@@ -58,18 +60,20 @@ actuator_definitions:
     # The link height (z-dimension) times n_segments must equal the actuator length
     link_definition:
         shape_type: "stadium"
-        dimensions: [ 0.4,0.4,0.075 ]
-        mass: 0.3
+        # dimensions: [ 0.4,0.4,0.075 ]
+        dimensions: [ 0.11,0.12,0.049 ]
+        # mass: 0.00595
+        mass: 0.595
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
-        material_color: [ 1.0, 0.0, 0.0, 1.0 ]
+        material_color: [ 0.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
 
     joint_definitions:
         # Define joint type 1
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
-          limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 1500
+          limits: [ 0, 0, 100, 3 ]
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
@@ -77,7 +81,7 @@ actuator_definitions:
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
           limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 1500
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 

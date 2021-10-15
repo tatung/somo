@@ -24,7 +24,7 @@ from somo.utils import load_constrained_urdf
 import sorotraj
 
 # select whether you want to record a video or not
-VIDEO_LOGGING = False
+VIDEO_LOGGING = True
 
 ######## SIMULATION SETUP ########
 ### prepare everything for the physics client / rendering
@@ -44,7 +44,7 @@ p.setPhysicsEngineParameter(enableFileCaching=0)
 plane = p.createCollisionShape(p.GEOM_PLANE)
 p.createMultiBody(0, plane)
 
-p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
+# p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
 
 # Set the camera position. This goes right after you instantiate the GUI:
 cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 15, 30.0, -90, [0.0, 0.0, 0.0]
@@ -65,7 +65,7 @@ p.setRealTimeSimulation(
 ## Specify time steps
 time_step = 0.001
 p.setTimeStep(time_step)
-n_steps = 25000
+n_steps = 20000
 
 ### load all the objects into the environment
 
@@ -89,7 +89,8 @@ arm.load_to_pybullet(
 # below is an example of how lateral friction and restitution can be changed for the whole manipulator.
 contact_properties = {
     "lateralFriction": 1,
-    "anisotropicFriction": [1, 0.01, 0.01]
+    "anisotropicFriction": [2, 0.01, 0.01],
+    "angularDamping": 3
     # 'restitution': 0.0, # uncomment to change restitution
 }
 arm.set_contact_property(contact_properties)
@@ -109,15 +110,20 @@ traj.load_traj_def("trajectory")
 trajectory = traj.get_trajectory()
 interp = sorotraj.Interpolator(trajectory)
 actuation_fn = interp.get_interp_function(
-    num_reps=1, speed_factor=1.2, invert_direction=False, as_list=False
+    num_reps=1, speed_factor=1, invert_direction=False, as_list=False
 )
 
+######## EXECUTE SIMULATION ########
+# if desired, start video logging - this goes before the run loop
+if VIDEO_LOGGING:
+    vid_filename = "~/vid.mp4"
+    logIDvideo = p.startStateLogging(p.STATE_LOGGING_VIDEO_MP4, vid_filename)
 for i in range(n_steps):
 
     torques = actuation_fn(
         i * time_step
     )  # retrieve control torques from the trajectory.
-    print(f"i = {i}\t{torques}")
+    # print(f"i = {i}\t{torques}")
     # applying the control torques
     arm.apply_actuation_torques(
         actuator_nrs=[0, 0, 1, 1],
