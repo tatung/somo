@@ -27,7 +27,7 @@ actuator_definitions:
     link_definition:
         shape_type: "stadium"
         dimensions: [ 0.4,0.4,0.075 ]
-        mass: 0.0119
+        mass: 0.3
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
         material_color: [ 1.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
@@ -36,16 +36,16 @@ actuator_definitions:
         # Define joint type 1
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
-          limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          limits: [ -0.785398, 0.785398, 100, 3 ]
+          spring_stiffness: 1500
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
         # Define joint type 2
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
-          limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          limits: [ -0.785398, 0.785398, 100, 3 ]
+          spring_stiffness: 1500
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
@@ -59,7 +59,7 @@ actuator_definitions:
     link_definition:
         shape_type: "stadium"
         dimensions: [ 0.4,0.4,0.075 ]
-        mass: 0.0119
+        mass: 0.3
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
         material_color: [ 1.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
@@ -68,16 +68,16 @@ actuator_definitions:
         # Define joint type 1
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
-          limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          limits: [ -0.785398, 0.785398, 100, 3 ]
+          spring_stiffness: 1500
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
         # Define joint type 2
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
-          limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          limits: [ -0.785398, 0.785398, 100, 3 ]
+          spring_stiffness: 1500
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 

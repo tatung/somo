@@ -18,7 +18,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -45,7 +45,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -54,7 +54,7 @@
     <child link="act0Seg1" />
     <origin xyz="0 0 0.0375" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg1helper_shape">
     <visual>
@@ -73,7 +73,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -100,7 +100,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -109,7 +109,7 @@
     <child link="act0Seg2" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg2helper_shape">
     <visual>
@@ -128,7 +128,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -155,7 +155,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -164,7 +164,7 @@
     <child link="act0Seg3" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg3helper_shape">
     <visual>
@@ -183,7 +183,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -210,7 +210,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -219,7 +219,7 @@
     <child link="act0Seg4" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg4helper_shape">
     <visual>
@@ -238,7 +238,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -265,7 +265,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -274,7 +274,7 @@
     <child link="act0Seg5" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg5helper_shape">
     <visual>
@@ -293,7 +293,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -320,7 +320,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -329,7 +329,7 @@
     <child link="act0Seg6" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg6helper_shape">
     <visual>
@@ -348,7 +348,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -375,7 +375,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -384,7 +384,7 @@
     <child link="act0Seg7" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg7helper_shape">
     <visual>
@@ -403,7 +403,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -430,7 +430,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -439,7 +439,7 @@
     <child link="act0Seg8" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg8helper_shape">
     <visual>
@@ -458,7 +458,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -485,7 +485,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -494,7 +494,7 @@
     <child link="act0Seg9" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg9helper_shape">
     <visual>
@@ -513,7 +513,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -540,7 +540,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -549,7 +549,7 @@
     <child link="act0Seg10" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg10helper_shape">
     <visual>
@@ -568,7 +568,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -595,7 +595,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -604,7 +604,7 @@
     <child link="act0Seg11" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg11helper_shape">
     <visual>
@@ -623,7 +623,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -650,7 +650,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -659,7 +659,7 @@
     <child link="act0Seg12" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg12helper_shape">
     <visual>
@@ -678,7 +678,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -705,7 +705,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -714,7 +714,7 @@
     <child link="act0Seg13" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg13helper_shape">
     <visual>
@@ -733,7 +733,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -760,7 +760,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -769,7 +769,7 @@
     <child link="act0Seg14" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg14helper_shape">
     <visual>
@@ -788,7 +788,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -815,7 +815,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -824,7 +824,7 @@
     <child link="act0Seg15" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg15helper_shape">
     <visual>
@@ -843,7 +843,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -870,7 +870,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -879,7 +879,7 @@
     <child link="act0Seg16" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg16helper_shape">
     <visual>
@@ -898,7 +898,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -925,7 +925,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -934,7 +934,7 @@
     <child link="act0Seg17" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg17helper_shape">
     <visual>
@@ -953,7 +953,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -980,7 +980,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -989,7 +989,7 @@
     <child link="act0Seg18" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg18helper_shape">
     <visual>
@@ -1008,7 +1008,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1035,7 +1035,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1044,7 +1044,7 @@
     <child link="act0Seg19" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg19helper_shape">
     <visual>
@@ -1063,7 +1063,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1090,7 +1090,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1099,7 +1099,7 @@
     <child link="act0Seg20" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act0Seg20helper_shape">
     <visual>
@@ -1118,7 +1118,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1145,7 +1145,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1154,7 +1154,7 @@
     <child link="act1Seg0" />
     <origin xyz="0 0 0.0375" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg1">
     <visual>
@@ -1173,7 +1173,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1182,7 +1182,7 @@
     <child link="act1Seg1" />
     <origin xyz="0 0 0.0375" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg1helper_shape">
     <visual>
@@ -1201,7 +1201,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1228,7 +1228,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1237,7 +1237,7 @@
     <child link="act1Seg2" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg2helper_shape">
     <visual>
@@ -1256,7 +1256,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1283,7 +1283,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1292,7 +1292,7 @@
     <child link="act1Seg3" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg3helper_shape">
     <visual>
@@ -1311,7 +1311,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1338,7 +1338,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1347,7 +1347,7 @@
     <child link="act1Seg4" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg4helper_shape">
     <visual>
@@ -1366,7 +1366,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1393,7 +1393,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1402,7 +1402,7 @@
     <child link="act1Seg5" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg5helper_shape">
     <visual>
@@ -1421,7 +1421,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1448,7 +1448,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1457,7 +1457,7 @@
     <child link="act1Seg6" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg6helper_shape">
     <visual>
@@ -1476,7 +1476,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1503,7 +1503,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1512,7 +1512,7 @@
     <child link="act1Seg7" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg7helper_shape">
     <visual>
@@ -1531,7 +1531,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1558,7 +1558,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1567,7 +1567,7 @@
     <child link="act1Seg8" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg8helper_shape">
     <visual>
@@ -1586,7 +1586,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1613,7 +1613,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1622,7 +1622,7 @@
     <child link="act1Seg9" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg9helper_shape">
     <visual>
@@ -1641,7 +1641,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1668,7 +1668,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1677,7 +1677,7 @@
     <child link="act1Seg10" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg10helper_shape">
     <visual>
@@ -1696,7 +1696,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1723,7 +1723,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1732,7 +1732,7 @@
     <child link="act1Seg11" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg11helper_shape">
     <visual>
@@ -1751,7 +1751,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1778,7 +1778,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1787,7 +1787,7 @@
     <child link="act1Seg12" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg12helper_shape">
     <visual>
@@ -1806,7 +1806,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1833,7 +1833,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1842,7 +1842,7 @@
     <child link="act1Seg13" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg13helper_shape">
     <visual>
@@ -1861,7 +1861,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1888,7 +1888,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1897,7 +1897,7 @@
     <child link="act1Seg14" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg14helper_shape">
     <visual>
@@ -1916,7 +1916,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1943,7 +1943,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -1952,7 +1952,7 @@
     <child link="act1Seg15" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg15helper_shape">
     <visual>
@@ -1971,7 +1971,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -1998,7 +1998,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -2007,7 +2007,7 @@
     <child link="act1Seg16" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg16helper_shape">
     <visual>
@@ -2026,7 +2026,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -2053,7 +2053,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -2062,7 +2062,7 @@
     <child link="act1Seg17" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg17helper_shape">
     <visual>
@@ -2081,7 +2081,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -2108,7 +2108,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -2117,7 +2117,7 @@
     <child link="act1Seg18" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg18helper_shape">
     <visual>
@@ -2136,7 +2136,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -2163,7 +2163,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -2172,7 +2172,7 @@
     <child link="act1Seg19" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg19helper_shape">
     <visual>
@@ -2191,7 +2191,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
@@ -2218,7 +2218,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.0119" />
+      <mass value="0.3" />
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
     </inertial>
   </link>
@@ -2227,7 +2227,7 @@
     <child link="act1Seg20" />
     <origin xyz="0 0 0.075" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.141592" upper="3.141592" effort="100" velocity="3" />
+    <limit lower="-0.785398" upper="0.785398" effort="100" velocity="3" />
   </joint>
   <link name="act1Seg20helper_shape">
     <visual>
@@ -2246,7 +2246,7 @@
       </geometry>
     </collision>
     <inertial>
-      <mass value="1.1900000000000001e-05" />
+      <mass value="0.0003" />
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
     </inertial>
   </link>
