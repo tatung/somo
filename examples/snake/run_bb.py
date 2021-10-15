@@ -47,7 +47,7 @@ p.createMultiBody(0, plane)
 p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
 
 # Set the camera position. This goes right after you instantiate the GUI:
-cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 5, 30.0, -90, [0.0, 0.0, 0.0]
+cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 15, 30.0, -90, [0.0, 0.0, 0.0]
 p.resetDebugVisualizerCamera(
     cameraDistance=cam_distance,
     cameraYaw=cam_yaw,
@@ -65,41 +65,12 @@ p.setRealTimeSimulation(
 ## Specify time steps
 time_step = 0.001
 p.setTimeStep(time_step)
-n_steps = 60000
+n_steps = 25000
 
 ### load all the objects into the environment
-# load the ground plane
-# planeId = p.loadURDF(
-#     "additional_urdfs/plane/plane.urdf", flags=p.URDF_USE_MATERIAL_COLORS_FROM_MTL
-# )
+
 p.changeDynamics(plane, -1, lateralFriction=1)  # set ground plane friction
 
-# # load the bball hoop
-# hoopStartPos = [-3.6, 0, 1]
-# hoopStartOr = p.getQuaternionFromEuler([0, 0, 0])
-# hoopId = p.loadURDF(
-#     "additional_urdfs/bball_court/hoop.urdf",
-#     hoopStartPos,
-#     hoopStartOr,
-#     flags=p.URDF_USE_MATERIAL_COLORS_FROM_MTL,
-#     useFixedBase=1,
-#     globalScaling=2.0,
-# )
-
-# load the bball
-# ballStartPos = [3.5, 0.75, 0.5]
-# ballStartOr = p.getQuaternionFromEuler([0, 0, 0])
-# ballId = p.loadURDF(
-#     "additional_urdfs/bball_court/ball.urdf",
-#     ballStartPos,
-#     ballStartOr,
-#     flags=p.URDF_USE_MATERIAL_COLORS_FROM_MTL,
-#     globalScaling=0.5,
-# )
-# p.changeDynamics(ballId, -1, lateralFriction=1)  # set ball friction
-
-### Create and load the manipulator / arm
-# load the manipulator definition
 arm_manipulator_def = SMManipulatorDefinition.from_file("definitions/bb_snake.yaml")
 
 # create the arm manipulator...
@@ -118,80 +89,18 @@ arm.load_to_pybullet(
 # below is an example of how lateral friction and restitution can be changed for the whole manipulator.
 contact_properties = {
     "lateralFriction": 1,
+    "anisotropicFriction": [1, 0.01, 0.01]
     # 'restitution': 0.0, # uncomment to change restitution
 }
 arm.set_contact_property(contact_properties)
 
 
-# dt = 1. / 240.
-# SNAKE_NORMAL_PERIOD = 0.1  #1.5
-# m_wavePeriod = SNAKE_NORMAL_PERIOD
-
-# m_waveLength = 8
-# m_wavePeriod = 2
-# m_waveAmplitude = 0.5
-# m_waveFront = 0.0
-# #our steering value
-# m_steering = 0.0
-# m_segmentLength = sphereRadius * 2.0
-# forward = 0
-
-# while 1:
-    # keys = p.getKeyboardEvents()
-    # for k, v in keys.items():
-
-    #     if (k == p.B3G_RIGHT_ARROW and (v & p.KEY_WAS_TRIGGERED)):
-    #         m_steering = -.2
-    #     if (k == p.B3G_RIGHT_ARROW and (v & p.KEY_WAS_RELEASED)):
-    #         m_steering = 0
-    #     if (k == p.B3G_LEFT_ARROW and (v & p.KEY_WAS_TRIGGERED)):
-    #         m_steering = .2
-    #     if (k == p.B3G_LEFT_ARROW and (v & p.KEY_WAS_RELEASED)):
-    #         m_steering = 0
-
-    # amp = 0.2
-    # offset = 0.6
-    # numMuscles = p.getNumJoints(sphereUid)
-    # scaleStart = 1.0
-
-    # #start of the snake with smaller waves.
-    # #I think starting the wave at the tail would work better ( while it still goes from head to tail )
-    # if (m_waveFront < m_segmentLength * 4.0):
-    #     scaleStart = m_waveFront / (m_segmentLength * 4.0)
-
-    # segment = numMuscles - 1
-
-    # #we simply move a sin wave down the body of the snake.
-    # #this snake may be going backwards, but who can tell ;)
-    # for joint in range(p.getNumJoints(sphereUid)):
-    #     segment = joint  #numMuscles-1-joint
-    #     #map segment to phase
-    #     phase = (m_waveFront - (segment + 1) * m_segmentLength) / m_waveLength
-    #     phase -= math.floor(phase)
-    #     phase *= math.pi * 2.0
-
-    #     #map phase to curvature
-    #     targetPos = math.sin(phase) * scaleStart * m_waveAmplitude
-
-    #     #// steer snake by squashing +ve or -ve side of sin curve
-    #     if (m_steering > 0 and targetPos < 0):
-    #         targetPos *= 1.0 / (1.0 + m_steering)
-
-    #     if (m_steering < 0 and targetPos > 0):
-    #         targetPos *= 1.0 / (1.0 - m_steering)
-
-    #     #set our motor
-    #     p.setJointMotorControl2(sphereUid,
-    #                             joint,
-    #                             p.POSITION_CONTROL,
-    #                             targetPosition=targetPos + m_steering,
-    #                             force=30)
-
-    # #wave keeps track of where the wave is in time
-    # m_waveFront += dt / m_wavePeriod * m_waveLength
-    # p.stepSimulation()
-
-    # time.sleep(dt)
+# anistropicFriction = [1, 0.01, 0.01]
+# p.changeDynamics(sphereUid, -1, lateralFriction=1.39, anisotropicFriction=anistropicFriction)
+# p.getNumJoints(sphereUid)
+# for i in range(p.getNumJoints(sphereUid)):
+#   p.getJointInfo(sphereUid, i)
+#   p.changeDynamics(sphereUid, i, lateralFriction=1.39, anisotropicFriction=anistropicFriction)
 
 ######## PRESCRIBE A TRAJECTORY ########
 # here, the trajectory is hard-coded (booh!) and prepared using the sorotraj format
@@ -217,47 +126,6 @@ for i in range(n_steps):
     )
 
     p.stepSimulation()
-
-
-# ######## EXECUTE SIMULATION ########
-# # if desired, start video logging - this goes before the run loop
-# if VIDEO_LOGGING:
-#     vid_filename = "vid.mp4"
-#     logIDvideo = p.startStateLogging(p.STATE_LOGGING_VIDEO_MP4, vid_filename)
-
-# # this for loop is the actual simulation
-# for i in range(n_steps):
-# while 1:
-#     for i in range(n_steps):
-#         # torques = actuation_fn(
-#         #     i * time_step
-#         # )  # retrieve control torques from the trajectory.
-#         if (math.floor(i/300))%2 == 1:
-#             torques = [0, i%300, 0, -(i%300)]
-#         else:
-#             torques = [0, -(i%300), 0, i%300]
-#         print(f"{math.floor(i/300)}:\t{torques}")
-#         if math.floor(i/300) != 0 and torques == [0, 0, 0, 0]:
-#             # print("stop")
-#             # p.disconnect()
-#             for j in range(300):
-#                 print(f"j = {j}:\t{torques}")
-#                 arm.apply_actuation_torques(
-#                     actuator_nrs=[0, 0, 1, 1],
-#                     axis_nrs=[0, 1, 0, 1],
-#                     actuation_torques=torques,
-#                 )
-
-#         # applying the control torques
-#         arm.apply_actuation_torques(
-#             actuator_nrs=[0, 0, 1, 1],
-#             axis_nrs=[0, 1, 0, 1],
-#             actuation_torques=torques,
-#         )
-
-#         p.stepSimulation()
-#         # time.sleep(time_step)
-
 
 ######## CLEANUP AFTER SIMULATION ########
 # this goes after the run loop

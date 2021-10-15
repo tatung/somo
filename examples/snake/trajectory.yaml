@@ -8,12 +8,12 @@ settings:
 # Place all of the type-specific settings in here
 config:
     interp_type: linear   # Types include: 'linear', 'cubic', 'none'
-    # interp_type: none   # Types include: 'linear', 'cubic', 'none'
-    subsample_num: 90 #Total number of subsamples
+    interp_type: none   # Types include: 'linear', 'cubic', 'none'
+    subsample_num: 180 #Total number of subsamples
     setpoints:
         # [time, act0_ax0, act0_ax1, act1_ax0, act1_ax1, act2_ax0, ... ]   # act0 is closest to the base
         main:
-            - [0.25,    0,      100,    0,      0]
+            - [0.25,    0,      100,    0,      -200]
 
             - [0.50,    0,      200,    0,      100]
             - [0.75,    0,      -100,   0,      200]
@@ -116,6 +116,6 @@ config:
             - [20.25,    0,      100,    0,      -200]
 
         prefix:
-            - [0.0,   0, 0, 0,  0]
+            - [0.00,        0,      -200,   0,      -100]
         suffix:
-            - [ 10.0,   0, 0, 0,  0]
+            - [ 21.0,   0, 0, 0,  0]
