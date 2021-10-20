@@ -8,7 +8,7 @@
         <box size="0.11 0.12 0.0245" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -35,7 +35,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -63,7 +63,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -90,7 +90,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -118,7 +118,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -145,7 +145,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -173,7 +173,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -200,7 +200,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -228,7 +228,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -255,7 +255,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -283,7 +283,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -310,7 +310,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -338,7 +338,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -365,7 +365,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -393,7 +393,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -420,7 +420,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -448,7 +448,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -475,7 +475,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -503,7 +503,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -530,7 +530,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -558,7 +558,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -585,7 +585,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -613,7 +613,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -640,7 +640,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -668,7 +668,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -695,7 +695,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -723,7 +723,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -750,7 +750,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -778,7 +778,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -805,7 +805,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -833,7 +833,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -860,7 +860,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -888,7 +888,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -915,7 +915,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -943,7 +943,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -970,7 +970,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -998,7 +998,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1025,7 +1025,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1053,7 +1053,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1080,7 +1080,7 @@
         <box size="0.11 0.12 0.0245" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1108,7 +1108,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0" />
+        <color rgba="0.0 0.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1135,7 +1135,7 @@
         <box size="0.11 0.12 0.0245" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1163,7 +1163,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1191,7 +1191,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1218,7 +1218,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1246,7 +1246,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1273,7 +1273,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1301,7 +1301,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1328,7 +1328,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1356,7 +1356,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1383,7 +1383,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1411,7 +1411,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1438,7 +1438,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1466,7 +1466,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1493,7 +1493,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1521,7 +1521,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1548,7 +1548,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1576,7 +1576,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1603,7 +1603,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1631,7 +1631,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1658,7 +1658,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1686,7 +1686,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1713,7 +1713,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1741,7 +1741,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1768,7 +1768,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1796,7 +1796,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1823,7 +1823,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1851,7 +1851,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1878,7 +1878,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1906,7 +1906,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1933,7 +1933,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1961,7 +1961,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1988,7 +1988,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2016,7 +2016,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2043,7 +2043,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2071,7 +2071,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2098,7 +2098,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2126,7 +2126,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2153,7 +2153,7 @@
         <box size="0.11 0.12 0.049" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2181,7 +2181,7 @@
         <cylinder length="0.11" radius="0.06" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2208,7 +2208,7 @@
         <box size="0.11 0.12 0.0245" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -2236,7 +2236,7 @@
         <cylinder length="0.12" radius="0.055" />
       </geometry>
       <material name="red">
-        <color rgba="0.0 0.0 0.0 1.0" />
+        <color rgba="1.0 0.0 0.0 1.0" />
       </material>
     </visual>
     <collision>

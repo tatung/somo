@@ -44,10 +44,10 @@ p.setPhysicsEngineParameter(enableFileCaching=0)
 plane = p.createCollisionShape(p.GEOM_PLANE)
 p.createMultiBody(0, plane)
 
-# p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
+p.configureDebugVisualizer(p.COV_ENABLE_GUI, 1)
 
 # Set the camera position. This goes right after you instantiate the GUI:
-cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 15, 30.0, -90, [0.0, 0.0, 0.0]
+cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 3, -30.0, -30, [0.0, 0.0, 0.0]
 p.resetDebugVisualizerCamera(
     cameraDistance=cam_distance,
     cameraYaw=cam_yaw,
@@ -76,7 +76,7 @@ arm_manipulator_def = SMManipulatorDefinition.from_file("definitions/bb_snake.ya
 # create the arm manipulator...
 arm = SMContinuumManipulator(arm_manipulator_def)
 # ... and load it
-startPos = [0, 0, 0.2]
+startPos = [0, 0, 0]
 startOr = p.getQuaternionFromEuler([-np.pi/2, 0, -np.pi/2])
 arm.load_to_pybullet(
     baseStartPos=startPos,
@@ -89,7 +89,7 @@ arm.load_to_pybullet(
 # below is an example of how lateral friction and restitution can be changed for the whole manipulator.
 contact_properties = {
     "lateralFriction": 1,
-    "anisotropicFriction": [2, 0.01, 0.01],
+    "anisotropicFriction": [10, 0.01, 0.01],
     "angularDamping": 3
     # 'restitution': 0.0, # uncomment to change restitution
 }
@@ -106,11 +106,11 @@ arm.set_contact_property(contact_properties)
 ######## PRESCRIBE A TRAJECTORY ########
 # here, the trajectory is hard-coded (booh!) and prepared using the sorotraj format
 traj = sorotraj.TrajBuilder(graph=False)
-traj.load_traj_def("trajectory")
+traj.load_traj_def("trajectory_loop")
 trajectory = traj.get_trajectory()
 interp = sorotraj.Interpolator(trajectory)
 actuation_fn = interp.get_interp_function(
-    num_reps=1, speed_factor=1, invert_direction=False, as_list=False
+    num_reps=20, speed_factor=1, invert_direction=False, as_list=False
 )
 
 ######## EXECUTE SIMULATION ########
@@ -123,7 +123,7 @@ for i in range(n_steps):
     torques = actuation_fn(
         i * time_step
     )  # retrieve control torques from the trajectory.
-    # print(f"i = {i}\t{torques}")
+    print(f"i = {i}\t{torques}")
     # applying the control torques
     arm.apply_actuation_torques(
         actuator_nrs=[0, 0, 1, 1],

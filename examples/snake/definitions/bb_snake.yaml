@@ -31,7 +31,7 @@ actuator_definitions:
         # mass: 0.00595
         mass: 0.595
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
-        material_color: [ 1.0, 0.0, 0.0, 1.0 ]
+        material_color: [ 0.0, 0.0, 1.0, 1.0 ]
         material_name: "red"
 
     joint_definitions:
@@ -65,7 +65,7 @@ actuator_definitions:
         # mass: 0.00595
         mass: 0.595
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
-        material_color: [ 0.0, 0.0, 0.0, 1.0 ]
+        material_color: [ 1.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
 
     joint_definitions:
