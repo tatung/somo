@@ -9,3 +9,5 @@ data
 *.egg-info
 build/
 dist/
+
+examples/snake/bb_snake.urdf
