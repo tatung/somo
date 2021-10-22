@@ -11,3 +11,5 @@ build/
 dist/
 
 examples/snake/bb_snake.urdf
+examples/snake/bb_snake_scale.urdf
+examples/iros2021/playing_ball/bb_arm.urdf

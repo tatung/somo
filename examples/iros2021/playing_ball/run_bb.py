@@ -98,8 +98,8 @@ arm_manipulator_def = SMManipulatorDefinition.from_file("definitions/bb_arm.yaml
 # create the arm manipulator...
 arm = SMContinuumManipulator(arm_manipulator_def)
 # ... and load it
-startPos = [0, 0, 0]
-startOr = p.getQuaternionFromEuler([0, 0, 0])
+startPos = [0, 0, 8]
+startOr = p.getQuaternionFromEuler([0, np.pi/2, 0])
 arm.load_to_pybullet(
     baseStartPos=startPos,
     baseStartOrn=startOr,
@@ -110,6 +110,7 @@ arm.load_to_pybullet(
 # below is an example of how lateral friction and restitution can be changed for the whole manipulator.
 contact_properties = {
     "lateralFriction": 1,
+    "angularDamping": 1000
     # 'restitution': 0.0, # uncomment to change restitution
 }
 arm.set_contact_property(contact_properties)

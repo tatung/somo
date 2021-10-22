@@ -10,26 +10,28 @@
 # NOTE: Remember to scale your geometry, stiffnesses, positions, and forces
 # by the global scaling factor; no need to scale masses.
 
-manipulator_name:      "bb_snake"
-urdf_filename:         "bb_snake.urdf"
+manipulator_name:      "bb_snake_scale"
+urdf_filename:         "bb_snake_scale.urdf"
 n_act:                  1
 
 # Define the actuators. this is a list of 5 actuator definitions
 actuator_definitions:
 
   # Actuator 0
-  - actuator_length: 0.0025
-    n_segments: 5
+  - actuator_length: 2
+    n_segments: 2
     planar_flag: 0
 
     # Define the link sub-unit for each actuator
     # The link height (z-dimension) times n_segments must equal the actuator length
     link_definition:
-        shape_type: "capsule"
+        # shape_type: "capsule"
+        shape_type: "stadium"
         # dimensions: [ 0.4,0.4,0.075 ]
-        dimensions: [ 0.0005,0.0005,0.0005 ]
+        dimensions: [ 1,1,1 ]
         # mass: 0.00595
-        mass: 0.0000595
+        mass: 0.000000595
+        # mass : 0
         inertial_values: [ 1, 0, 0, 1, 0, 1 ]
         material_color: [ 1.0, 0.0, 0.0, 1.0 ]
         material_name: "red"
@@ -38,16 +40,20 @@ actuator_definitions:
         # Define joint type 1
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
-          limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 13000
+          # limits: [ -0.3926990817, 0.3926990817, 10, 3 ]
+          limits: [ -0.7853981634, 0.7853981634, 1000, 3 ]
+          # limits: [ 0.0, 0.0, 10, 3 ]
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
         # Define joint type 2
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
-          limits: [ -0.785398, 0.785398, 100, 3 ]
-          spring_stiffness: 13000
+          # limits: [ -0.3926990817, 0.3926990817, 10, 3 ]
+          limits: [ -0.7853981634, 0.7853981634, 1000, 3 ]
+          # limits: [ 0.0, 0.0, 10, 3 ]
+          spring_stiffness: 1300
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 

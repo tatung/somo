@@ -37,7 +37,7 @@ actuator_definitions:
         - joint_type: "revolute"
           axis: [ 1, 0, 0 ]
           limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          spring_stiffness: 10000
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
@@ -45,7 +45,7 @@ actuator_definitions:
         - joint_type: "revolute"
           axis: [ 0, 1, 0 ]
           limits: [ -3.141592, 3.141592, 100, 3 ]
-          spring_stiffness: 1000
+          spring_stiffness: 10000
           joint_neutral_position: 0
           joint_control_limit_force: 1.
 
