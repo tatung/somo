@@ -380,7 +380,7 @@ class SMContinuumManipulator:
             joint_indices = self.actuatorAxis_joints[str(actuator_nr)][str(axis_nr)]
 
             # pybullet expects floats, not np.floats
-            if isinstance(act_torque, (np.float, np.float32, np.float64)):
+            if isinstance(act_torque, (float, np.float32, np.float64)):
                 act_torque = float(act_torque)
 
             extended_actuation_torque = [act_torque for x in range(len(joint_indices))]
