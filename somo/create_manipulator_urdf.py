@@ -272,7 +272,7 @@ def create_manipulator_urdf(
                         ]
                     else:
                         assert (
-                            Fasle
+                            False
                         ), f"shape type 'stadium' only works with joint axis with direction [1,0,0] or [0,1,0] that do not have an offset from neutral axis"  # xx todo: add this as an assertion when defining the actuator
 
                     helper_shape_height = dim[

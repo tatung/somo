@@ -9,4 +9,4 @@ data
 *.egg-info
 build/
 dist/
-venv
+venv/
