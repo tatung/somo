@@ -47,7 +47,8 @@ p.createMultiBody(0, plane)
 p.configureDebugVisualizer(p.COV_ENABLE_GUI, 1)
 
 # Set the camera position. This goes right after you instantiate the GUI:
-cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 3, -30.0, -30, [0.0, 0.0, 0.0]
+# cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 3, -30.0, -30, [0.0, 0.0, 0.0]
+cam_distance, cam_yaw, cam_pitch, cam_xyz_target = 3, 0.0, -89, [0.0, 0.0, 0.0]
 p.resetDebugVisualizerCamera(
     cameraDistance=cam_distance,
     cameraYaw=cam_yaw,
@@ -90,8 +91,8 @@ arm.load_to_pybullet(
 contact_properties = {
     "lateralFriction": 1,
     "anisotropicFriction": [10, 0.01, 0.01],
-    "angularDamping": 3
-    # 'restitution': 0.0, # uncomment to change restitution
+    "angularDamping": 3,
+    'restitution': 3.0, # uncomment to change restitution
 }
 arm.set_contact_property(contact_properties)
 
